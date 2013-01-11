@@ -1,0 +1,96 @@
+@-webkit-keyframes fontbulger {
+  /* line 61, ../sass/functions.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 64, ../sass/functions.scss */
+  50% {
+    opacity: 0.2;
+  }
+
+  /* line 67, ../sass/functions.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes morph {
+  /* line 73, ../sass/functions.scss */
+  0% {
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
+    border-radius: 0px 0px 0px 8px;
+  }
+
+  /* line 76, ../sass/functions.scss */
+  50% {
+    -moz-border-radius-bottomleft: 50px;
+    -webkit-border-radius: 0px 0px 0px 50px;
+    border-radius: 0px 0px 0px 50px;
+  }
+
+  /* line 79, ../sass/functions.scss */
+  100% {
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
+    border-radius: 0px 0px 0px 8px;
+  }
+}
+
+@-webkit-keyframes spaceboots {
+  /* line 94, ../sass/functions.scss */
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  /* line 95, ../sass/functions.scss */
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  /* line 96, ../sass/functions.scss */
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  /* line 97, ../sass/functions.scss */
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  /* line 98, ../sass/functions.scss */
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  /* line 99, ../sass/functions.scss */
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  /* line 100, ../sass/functions.scss */
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  /* line 101, ../sass/functions.scss */
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  /* line 102, ../sass/functions.scss */
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  /* line 103, ../sass/functions.scss */
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+
+  /* line 104, ../sass/functions.scss */
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
